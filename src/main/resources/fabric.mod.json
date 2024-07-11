@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "variablecopperbulbsignal",
+	"version": "${version}",
+	"name": "VariableCopperBulbSignal",
+	"description": "This mod changes the comparator output of copper bulb based on its oxidation level. It matches the light level and redstone signal.",
+	"authors": [
+		"Strange Quark"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/variablecopperbulbsignal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"strangequark.variablecopperbulbsignal.VariableCopperBulbSignal"
+		]
+	},
+	"mixins": [
+      "variablecopperbulbsignal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

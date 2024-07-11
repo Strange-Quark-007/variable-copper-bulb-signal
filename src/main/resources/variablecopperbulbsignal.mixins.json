@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "strangequark.variablecopperbulbsignal.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BulbBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
