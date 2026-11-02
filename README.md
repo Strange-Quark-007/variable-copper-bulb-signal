@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **This repository has been archived.**  
+> Ongoing development of **Variable Copper Bulb Signal** for Minecraft 26.1+ has moved to the monorepo: [**StrangeQuark-Mods**](https://github.com/Strange-Quark-007/StrangeQuark-Mods).
+
 # Variable Copper Bulb Signal
 
 Copper bulbs have different light levels based on its oxidation state, but why limit it to only light levels?
